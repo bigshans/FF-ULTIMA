@@ -1,8 +1,10 @@
-/*-----------------------------------------------------------------------------
-- this file transforms the extension menu into a compact icon-only view
-- sourced from Firefox Mod Blur:
-- https://github.com/datguypiko/Firefox-Mod-Blur
------------------------------------------------------------------------------*/
+/*--
+sourced from Firefox Mod Blur:
+https://github.com/datguypiko/Firefox-Mod-Blur
+
+this file transforms the extension menu into more small, clean, icon only view
+delete this file to disable
+--*/
 
 @media (-moz-bool-pref: "ultima.theme.extensions") {
 

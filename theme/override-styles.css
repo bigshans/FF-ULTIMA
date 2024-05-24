@@ -1,13 +1,10 @@
-/*----------------------------------------------------------
-- this file handles multiple optional settings via about:config
-- overriding aspects of the theme to accomplish different styles
-
+/*--
 Index: For ctrl+f search of a section
 
 --no margins, borders, or rounded corners-- line 11
 --restore close tab buttons-- line 42
 --minor adjustments yet to be labeled-- line 60-
-----------------------------------------------------------*/
+--*/
 
 
 
@@ -59,7 +56,6 @@ while keeping a clean consistent look across the theme, refer to position-vertta
 
     :root:not([customizing]) #TabsToolbar-customization-target *:not(:hover) .tab-close-button,
     :root:not([customizing]) #TabsToolbar-customization-target *:not(:hover) .close-icon {
-      display: none !important;
       opacity: 0 !important;
     }
   }

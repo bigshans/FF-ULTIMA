@@ -459,7 +459,7 @@ stroke: var(--toolbarbutton-icon-fill) !important;
 /*--the label that says ("website.com is now in full screen...")--*/
 
 #fullscreen-warning, *.pointerlockfswarning {
-  opacity: 0 !important;
+  opacity: 0.4 !important;
   border-radius: 20px !important;
 }
 
@@ -486,7 +486,7 @@ stroke: var(--toolbarbutton-icon-fill) !important;
 }
 /*--ublock on--*/
 #ublock0_raymondhill_net-BAP image{
-  list-style-image: url("icons/ubon-l.png") !important;
+  list-style-image: url("icons/ubon.png") !important;
 }
 /*--ublock off--*/
 #ublock0_raymondhill_net-BAP[tooltiptext="uBlock Origin (off)"] image{

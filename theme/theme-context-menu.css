@@ -1,7 +1,6 @@
 /* ----------------------------------------------------------
-- removing excess items from the context menu
-- context menu styling
-- color correction relative to system color scheme
+Removing the following items from the right click menu
+https://github.com/stonecrusher/simpleMenuWizard
 -----------------------------------------------------------*/
 
 #context-take-screenshot
@@ -10,18 +9,13 @@
 #context-setDesktopBackground,
 #context-sep-setbackground,
 #context-openlinkinusercontext-menu
-    {
-        display: none !important;
-    }
-
+    { display: none !important; }
 #context-pocket,
 #context-savelinktopocket,
 #tabContextMenu #context_duplicateTab,         
 #tabContextMenu #context_duplicateTabs,
 #tabContextMenu #context_bookmarkSelectedTabs
-    {
-        display: none !important;
-    }
+{ display: none !important; }
 
 /* ----------------------------------------------------------
 Theming Context Menu

@@ -1,6 +1,4 @@
-/*---------------------------------------------------
-- Containerized tab styling
----------------------------------------------------*/
+/* Multiple style, change these to test it out */
 
 /* Needs to be added to avoid overflowing, needs testing if this doesn't break anything */
 .tabbrowser-tab .tab-background {
