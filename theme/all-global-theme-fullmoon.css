@@ -472,7 +472,7 @@ splitter {@media (-moz-platform: windows) { & {
 }
 #main-window[lwtheme="true"] #unified-extensions-button {
   list-style-image: url("icons/extensions.svg") !important;
-  fill: var(--lwt-accent-color) !important;
+  /* fill: var(--lwt-accent-color) !important; */
 }
 /*--bookmarks folder icon--*/
 .bookmark-item[container=true] {

@@ -63,7 +63,7 @@ scrollbox[orient="horizontal"] {
   display: var(--uc-scrollbox-box-model, flex);
   -webkit-box-orient: vertical;
   height: 100%;
-  /* overflow: var(--uc-scrollbox-overflow, initial) !important; */
+  overflow: var(--uc-scrollbox-overflow, initial) !important;
 }
 
 #tabbrowser-tabs:is(haspinnedtabs="") scrollbox[orient="horizontal"],

@@ -377,11 +377,11 @@ background-color: var(--uc-ultima-background-ii) !important;
 /*----------------------------------extra----------------------------------------*/
 /*-------------------------------------------------------------------------------*/
 
-tooltip {
-  background-color: var(--uc-ultima-background-i) !important;
-  color: var(--uc-dark) !important;
-  border-color: var(--uc-light) !important;
-}
+/* tooltip { */
+  /* background-color: var(--uc-ultima-background-i) !important; */
+  /* color: var(--uc-dark) !important; */
+  /* border-color: var(--uc-light) !important; */
+/* } */
 
 
 /*------------------sidebar extra------------------*/
@@ -478,7 +478,7 @@ stroke: var(--toolbarbutton-icon-fill) !important;
 }
 #main-window[lwtheme="true"] #unified-extensions-button {
   list-style-image: url("icons/extensions.svg") !important;
-  fill: var(--lwt-accent-color) !important;
+  /* fill: var(--lwt-accent-color) !important; */
 }
 /*--bookmarks folder icon--*/
 .bookmark-item[container=true] {
