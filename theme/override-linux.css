@@ -19,6 +19,9 @@ Index: For ctrl+f search of a section
 
     /*--update nav bar spacing--*/
     #nav-bar {margin-right: 86px !important;}
+    :root:not([chromemargin], inFullscreen) #nav-bar {
+        margin-right: 0 !important;
+    }
     
     /*--override inactive window style--*/
     :root:where([tabsintitlebar]) {
