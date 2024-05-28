@@ -91,8 +91,8 @@ so you can keep the ability to switch from left to right--*/
     --uc-sidebar-width: 38px; /*width when not in view*/
     --uc-sidebar-hover-width: 250px; /*width when in full view*/
     --uc-autohide-sidebar-delay: 300ms;
-    --uc-autohide-transition-duration: 80ms;
-    --uc-autohide-transition-type: linear;
+    --uc-autohide-transition-duration: 100ms;
+    --uc-autohide-transition-type: ease-in-out;
     position: relative;
     min-width: var(--uc-sidebar-width) !important;
     width: var(--uc-sidebar-width) !important;
